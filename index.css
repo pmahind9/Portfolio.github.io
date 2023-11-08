@@ -84,7 +84,20 @@ body::-webkit-scrollbar {
 .horizontal-list li {
     display: inline-block;
     margin: 0px 8px 8px 0px;
+    font-size: 1.5rem; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+  
+    padding: 10px 15px; /* Add padding for a more attractive look */
+   
+    border-radius: 4px; /* Add rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Add a smooth transition effect */
 }
+
+.horizontal-list li:hover {
+   
+    border-radius: 10px 0px 10px 0px;;
+}
+
 
 
 .nav-menu li a {
