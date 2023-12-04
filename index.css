@@ -644,3 +644,95 @@ button:focus {
     }
 
 }
+/* Add these styles to your CSS file */
+
+#certificates {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+#certificates-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.certificate-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    max-width: 300px; /* Adjust the maximum width */
+}
+
+.certificate-item:hover {
+    transform: scale(1.05);
+}
+
+.certificate-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.certificate-details {
+    padding: 10px;
+}
+
+.certificate-link {
+    display: block;
+    margin-bottom: 10px;
+    color: darkcyan;
+    font-weight: bold;
+}
+
+.certificate-details p {
+    font-size: 12px; /* Adjust the font size */
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Add this CSS to your existing CSS file or create a new one */
+
+#certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.certificate-item {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.certificate-item:hover {
+    transform: scale(1.05);
+}
+
+.certificate-details {
+    padding: 15px;
+}
+
+.certificate-link {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: darkcyan;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.certificate-link:hover {
+    background-color: #007a7a; /* Darker shade of cyan on hover */
+}
